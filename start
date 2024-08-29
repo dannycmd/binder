@@ -1,4 +1,3 @@
 #!/bin/bash
-conda remove ipywidgets
 jupyter nbextension enable --py --sys-prefix ipyleaflet
 exec "$@"
